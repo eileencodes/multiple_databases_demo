@@ -1,2 +1,2 @@
-class Dog < ApplicationRecord
+class Dog < Animals::Base
 end
