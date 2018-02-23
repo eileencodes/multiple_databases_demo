@@ -1,2 +1,2 @@
-class Cat < Animals::Base
+class Cat < AnimalsBase
 end
