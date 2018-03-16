@@ -1,15 +1,7 @@
 GIT
-  remote: https://github.com/rails/web-console.git
-  revision: 4cdbe96d230936a2e620d8efb62966100b1b51c9
-  specs:
-    web-console (3.5.1)
-      actionview (>= 5.0)
-      activemodel (>= 5.0)
-      bindex (>= 0.4.0)
-      railties (>= 5.0)
-
-PATH
-  remote: /Users/eileencodes/open_source/rails
+  remote: https://github.com/eileencodes/rails.git
+  revision: 7bbe510cf2537bad0d52d2b7949961c34eddaf64
+  branch: part-1-add-rake-tasks-for-multi-db
   specs:
     actioncable (6.0.0.alpha)
       actionpack (= 6.0.0.alpha)
@@ -49,7 +41,7 @@ PATH
       marcel (~> 0.3.1)
     activesupport (6.0.0.alpha)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     rails (6.0.0.alpha)
@@ -71,6 +63,16 @@ PATH
       method_source
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
+
+GIT
+  remote: https://github.com/rails/web-console.git
+  revision: 4cdbe96d230936a2e620d8efb62966100b1b51c9
+  specs:
+    web-console (3.5.1)
+      actionview (>= 5.0)
+      activemodel (>= 5.0)
+      bindex (>= 0.4.0)
+      railties (>= 5.0)
 
 GEM
   remote: https://rubygems.org/
@@ -104,12 +106,12 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
     crass (1.0.3)
-    erubi (1.7.0)
+    erubi (1.7.1)
     execjs (2.7.0)
     ffi (1.9.21)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    i18n (0.9.3)
+    i18n (1.0.0)
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
     jbuilder (2.7.0)
@@ -119,7 +121,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    loofah (2.1.1)
+    loofah (2.2.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.0)
@@ -133,7 +135,7 @@ GEM
     minitest (5.11.3)
     multi_json (1.13.1)
     mysql2 (0.4.10)
-    nio4r (2.2.0)
+    nio4r (2.3.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     public_suffix (3.0.1)

@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.2'
 
-gem 'rails', path: "/Users/eileencodes/open_source/rails"
+gem 'rails', github: 'eileencodes/rails', branch: 'part-1-add-rake-tasks-for-multi-db'
 
 # Use mysql as the database for Active Record
 gem 'mysql2', '~> 0.4.4'
