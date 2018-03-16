@@ -1,4 +1,4 @@
 class AnimalsBase < ActiveRecord::Base
   self.abstract_class = true
-  establish_connection configurations["#{Rails.env}_animals"]
+  establish_connection :animals
 end
